@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 
 public class FirebaseAuthService {
-    private static final String API_KEY = "AIzaSyCorg4PPUwlinEGt7rv9A8rzvQ9_UKrEBk";
+    private static final String API_KEY = "FIREBASE_API_KEY";
     private static final String REGISTER_URL =
             "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=" + API_KEY;
     private static final String LOGIN_URL =
@@ -171,4 +171,5 @@ public class FirebaseAuthService {
             e.printStackTrace();
         }
     }
+
 }
